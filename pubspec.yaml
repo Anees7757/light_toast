@@ -1,6 +1,6 @@
 name: light_toast
 description: "A simple toast package for Flutter."
-version: 0.0.1
+version: 0.0.5
 homepage: https://github.com/Anees7757/light_toast.git
 
 environment:

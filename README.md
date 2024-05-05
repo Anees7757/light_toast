@@ -2,9 +2,10 @@
 
 A simple and lightweight Flutter package for displaying customizable toast messages.
 
-<img alt="Image" src="assets/images/img1.png"/>
-<img alt="Image" src="assets/images/img2.png"/>
-<img alt="Image" src="assets/images/img3.png"/>
+
+<img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img1.png" alt=""/>
+<img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img2.png" alt=""/>
+<img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img3.png" alt=""/>
 
 
 ## Features
@@ -19,11 +20,11 @@ A simple and lightweight Flutter package for displaying customizable toast messa
 
 ```yaml
 #add this line to your dependencies
-toast: ^0.0.2
+light_toast: ^0.0.5
 ```
 Then, import the package where you want to use it:
 ```
-import 'package:toast/toast.dart';
+import 'package:light_toast/light_toast.dart';
 ```
 
 ## How to use

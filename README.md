@@ -2,14 +2,14 @@
 
 A simple and lightweight Flutter package for displaying customizable toast messages.
 
-<img alt="Image" src="assets/images/img1.png"/>
-<img alt="Image" src="assets/images/img2.png"/>
-<img alt="Image" src="assets/images/img3.png"/>
+<img src="https://github.com/Anees7757/light_toast/blob/master/assets/images/img1.png" height="300">
+<img src="https://github.com/Anees7757/light_toast/blob/master/assets/images/img2.png" height="300">
+<img src="https://github.com/Anees7757/light_toast/blob/master/assets/images/img3.png" height="300">
 
 
 ## Features
 
-- Display toast messages with customizable colors, icons, and images.
+- Display toast messages with customizable colours, icons, and images.
 - Supports showing icons or images leading the toast message.
 - Supports Assets and Network images
 - Configurable duration for toast visibility.

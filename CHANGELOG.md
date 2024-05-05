@@ -1,3 +1,6 @@
+## [0.0.6]
+### class documentation added
+
 ## [0.0.5]
 ### example added
 

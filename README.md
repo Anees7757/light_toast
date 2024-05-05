@@ -20,7 +20,7 @@ A simple and lightweight Flutter package for displaying customizable toast messa
 
 ```yaml
 #add this line to your dependencies
-light_toast: ^0.0.5
+light_toast: ^0.0.6
 ```
 Then, import the package where you want to use it:
 ```

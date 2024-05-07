@@ -1,3 +1,6 @@
+## [0.0.7]
+### No context support added
+
 ## [0.0.6]
 ### class documentation added
 

@@ -1,5 +1,3 @@
-# light_toast
-
 A simple and lightweight Flutter package for displaying customizable toast messages.
 
 
@@ -10,6 +8,7 @@ A simple and lightweight Flutter package for displaying customizable toast messa
 
 ## Features
 
+- You can use it with or without context
 - Display toast messages with customizable colors, icons, and images.
 - Supports showing icons or images leading the toast message.
 - Supports Assets and Network images
@@ -20,7 +19,7 @@ A simple and lightweight Flutter package for displaying customizable toast messa
 
 ```yaml
 #add this line to your dependencies
-light_toast: ^0.0.6
+light_toast: ^0.0.7
 ```
 Then, import the package where you want to use it:
 ```
@@ -29,10 +28,19 @@ import 'package:light_toast/light_toast.dart';
 
 ## How to use
 
-You can use the Toast.show method to display a toast message. Here's an example:
+_You can use the Toast.show method to display a toast message. Check the code below_
+
+
 ```dart
 Toast.show(
-  context,
+  'Hello, Flutter!',
+);
+```
+
+**Or with `context`**
+```dart
+Toast.show(
+  context: context,
   'Hello, Flutter!',
 );
 ```
@@ -41,3 +49,5 @@ To hide toast
 ```dart
 Toast.hide();
 ```
+
+

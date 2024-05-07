@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:light_toast/src/ui/toast_widget.dart';
 
@@ -7,8 +7,8 @@ import 'package:light_toast/src/ui/toast_widget.dart';
 abstract class Toast {
   /// Shows a toast message with customizable options.
   ///
-  /// [context] The build context.
   /// [message] The message to display in the toast.
+  /// [context] The build context.
   /// [backgroundColor] The background color of the toast.
   /// [textColor] The text color of the toast message.
   /// [fontSize] The font size of the toast message.
@@ -21,8 +21,9 @@ abstract class Toast {
   static OverlayEntry? _overlayEntry;
   static bool _isVisible = false;
 
-  static void show(BuildContext context, String message,
-      {Color backgroundColor = Colors.black87,
+  static void show(String message,
+      {BuildContext? context,
+      Color backgroundColor = Colors.black87,
       Color textColor = Colors.white,
       double fontSize = 16.0,
       double borderRadius = 10.0,
@@ -57,7 +58,9 @@ abstract class Toast {
           ),
         );
 
-        Overlay.of(context).insert(_overlayEntry!);
+        (context == null)
+            ? Overlay.of(Get.overlayContext!).insert(_overlayEntry!)
+            : Overlay.of(context).insert(_overlayEntry!);
         _isVisible = true;
 
         Timer(duration, () {

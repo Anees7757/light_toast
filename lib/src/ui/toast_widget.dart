@@ -12,6 +12,7 @@ class ToastWidget extends StatelessWidget {
   final bool showLeading;
 
   const ToastWidget({
+    super.key,
     required this.message,
     this.backgroundColor,
     this.textColor,

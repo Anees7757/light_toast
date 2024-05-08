@@ -1,5 +1,5 @@
 A simple and lightweight Flutter package for displaying customizable toast messages.
-
+$${\color{red}Light Toast}$$
 
 <img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img1.png" alt=""/>
 <img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img2.png" alt=""/>

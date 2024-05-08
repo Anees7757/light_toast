@@ -4,7 +4,6 @@
 <img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img2.png" alt=""/>
 <img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img3.png" alt=""/>
 
-
 ## Features
 
 - **Contextual Flexibility:** Use Light Toast with or without a BuildContext for seamless integration.

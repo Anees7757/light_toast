@@ -1,5 +1,4 @@
-A simple and lightweight Flutter package for displaying customizable toast messages.
-
+***Light Toast*** is a simple, lightweight, and highly customizable Flutter package designed to display beautiful toast notifications within your Flutter applications. Enhance your app's user experience with eye-catching and informative toast messages. Like a natvie
 
 <img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img1.png" alt=""/>
 <img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img2.png" alt=""/>
@@ -8,46 +7,37 @@ A simple and lightweight Flutter package for displaying customizable toast messa
 
 ## Features
 
-- You can use it with or without context
-- Display toast messages with customizable colors, icons, and images.
-- Supports showing icons or images leading the toast message.
-- Supports Assets and Network images
-- Configurable duration for toast visibility.
-- Hide toast
+- **Contextual Flexibility:** Use Light Toast with or without a BuildContext for seamless integration.
+- **Customization:** Personalize your toast messages with a wide range of colors, icons, and images (both asset-based and network-based).
+- **Visual Appeal:** Choose to display icons or images alongside your toast text for added impact.
+- **Timing Control:** Adjust the duration of your toast messages for optimal visibility.
+- **On-Demand Dismissal:** Easily hide toast messages when needed.
 
 ## Getting started
 
+1. **Add Dependency:** Include the following in your project's pubspec.yaml file:
+
 ```yaml
-#add this line to your dependencies
-light_toast: ^0.0.7
+dependencies:
+  light_toast: ^0.0.7
 ```
-Then, import the package where you want to use it:
+
+2. **Import:** Add the import statement to your Dart files:
 ```
 import 'package:light_toast/light_toast.dart';
 ```
 
 ## How to use
 
-_You can use the Toast.show method to display a toast message. Check the code below_
-
-
-```dart
-Toast.show(
-  'Hello, Flutter!',
-);
-```
-
 **Or with `context`**
 ```dart
-Toast.show(
-  context: context,
-  'Hello, Flutter!',
-);
-```
+// Simple usage
+Toast.show('Hello, Flutter!');
 
-To hide toast
-```dart
+// Usage with BuildContext
+Toast.show(context: context, 'Hello, Flutter!');
+
+// To hide a toast:
 Toast.hide();
 ```
-
 

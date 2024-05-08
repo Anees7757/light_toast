@@ -1,4 +1,4 @@
-***Light Toast*** is a simple, lightweight, and highly customizable Flutter package designed to display beautiful toast notifications within your Flutter applications. Enhance your app's user experience with eye-catching and informative toast messages. Like a natvie
+###Light Toast is a simple, lightweight, and highly customizable Flutter package designed to display beautiful toast notifications within your Flutter applications. Enhance your app's user experience with eye-catching and informative toast messages. Like a natvie
 
 <img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img1.png" alt=""/>
 <img height="300" src="https://raw.githubusercontent.com/Anees7757/light_toast/master/assets/images/img2.png" alt=""/>
